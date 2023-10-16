@@ -16,6 +16,7 @@ class EnvironmentViewModel:ObservableObject{
         TabViewItem(title: "Push", icon: "paperplane.fill", screen: AnyView(PushScreen())),
         TabViewItem(title: "Folder", icon: "folder.fill", screen: AnyView(FolderScreen())),
         TabViewItem(title: "Trash", icon: "trash.circle.fill", screen: AnyView(TrashScreen())),
+        TabViewItem(title: "News", icon: "newspaper.fill", screen: AnyView(NewsListScreen())),
     ]
     @Published var tabSelectin:UUID = .init()
     
